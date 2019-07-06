@@ -1,0 +1,10 @@
+# Registry Service Configuration
+eureka:
+  instance:
+    hostname: localhost
+  client: 
+    registerWithEureka: false
+    fetchRegistry: false
+
+server:
+  port: 9999   

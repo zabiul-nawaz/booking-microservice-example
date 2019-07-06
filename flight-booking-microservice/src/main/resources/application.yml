@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: flight-booking-service
+
+eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:9999/eureka/
+
+server: 
+  port: 9990
